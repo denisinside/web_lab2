@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" type="text/css" href="styles.css"/>
+  <title>Кошик покупок</title>
+</head>
+<body>
+<div class="left column">
+  <div class="search-panel">
+    <input class="name-input" type="text" placeholder="Назва товару"/>
+    <button class="new-product-button">Додати</button>
+  </div>
+
+  <div class="product">
+    <div class="product-line left-align">
+      <span class="product-name not-bought">Помідори</span>
+    </div>
+    <div class="product-line centered">
+      <button class="remove-button">-</button>
+      <span class="counter">1</span>
+      <button class="add-button">+</button>
+    </div>
+    <div class="product-line right-align">
+      <button class="buy-button">Не куплено</button>
+    </div>
+  </div>
+
+  <div class="product">
+    <div class="product-line left-align">
+      <span class="product-name">Печиво</span>
+    </div>
+    <div class="product-line centered">
+      <button class="remove-button">-</button>
+      <span class="counter">3</span>
+      <button class="add-button">+</button>
+    </div>
+    <div class="product-line right-align">
+      <button class="buy-button">Куплено</button>
+      <button class="delete-button">x</button>
+    </div>
+  </div>
+
+  <div class="product">
+    <div class="product-line left-align">
+      <span class="product-name">Сир</span>
+    </div>
+    <div class="product-line centered">
+      <button class="remove-button">-</button>
+      <span class="counter">12</span>
+      <button class="add-button">+</button>
+    </div>
+    <div class="product-line right-align">
+      <button class="buy-button">Куплено</button>
+      <button class="delete-button">x</button>
+    </div>
+  </div>
+
+</div>
+<div class="right column">
+  <div class="row">
+    <span>Залишилося</span>
+  </div>
+
+  <div class="row">
+    <div class="item">
+      <span class="item-name">Сир</span>
+      <span class="item-amount">4</span>
+    </div>
+
+    <div class="item">
+      <span class="item-name">Печиво</span>
+      <span class="item-amount">2</span>
+    </div>
+
+  </div>
+  <div class="row">
+    <span>Куплено</span>
+  </div>
+
+  <div class="row">
+    <div class="item">
+      <span class="item-name">Помідори</span>
+      <span class="item-amount">8</span>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="badge">
+  <div class="badge-head">
+    <span class="buy-list">Buy List</span>
+  </div>
+  <div class="badge-body">
+    <span class="created-by">Created by:</span>
+    <span class=""></span>
+  </div>
+</div>
+</body>
+</html>
