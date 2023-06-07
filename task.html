@@ -10,7 +10,7 @@
 <div class="left column">
   <div class="search-panel">
     <input class="name-input" type="text" placeholder="Назва товару"/>
-    <button class="new-product-button">Додати</button>
+    <button class="new-product-button" data-tooltip="Додати товар">Додати</button>
   </div>
 
   <div class="product">
@@ -18,12 +18,10 @@
       <span class="product-name not-bought">Помідори</span>
     </div>
     <div class="product-line centered">
-      <button class="remove-button">-</button>
       <span class="counter">1</span>
-      <button class="add-button">+</button>
     </div>
     <div class="product-line right-align">
-      <button class="buy-button">Не куплено</button>
+      <button class="buy-button" data-tooltip="Купити">Не куплено</button>
     </div>
   </div>
 
@@ -32,13 +30,13 @@
       <span class="product-name">Печиво</span>
     </div>
     <div class="product-line centered">
-      <button class="remove-button">-</button>
+      <button class="remove-button" data-tooltip="Прибрати">-</button>
       <span class="counter">3</span>
-      <button class="add-button">+</button>
+      <button class="add-button" data-tooltip="Додати">+</button>
     </div>
     <div class="product-line right-align">
-      <button class="buy-button">Куплено</button>
-      <button class="delete-button">x</button>
+      <button class="buy-button" data-tooltip="Не купляти">Куплено</button>
+      <button class="delete-button" data-tooltip="Видалити">x</button>
     </div>
   </div>
 
@@ -47,17 +45,18 @@
       <span class="product-name">Сир</span>
     </div>
     <div class="product-line centered">
-      <button class="remove-button">-</button>
+      <button class="remove-button" data-tooltip="Прибрати">-</button>
       <span class="counter">12</span>
-      <button class="add-button">+</button>
+      <button class="add-button" data-tooltip="Додати">+</button>
     </div>
     <div class="product-line right-align">
-      <button class="buy-button">Куплено</button>
-      <button class="delete-button">x</button>
+      <button class="buy-button" data-tooltip="Не купляти">Куплено</button>
+      <button class="delete-button" data-tooltip="Видалити">x</button>
     </div>
   </div>
 
 </div>
+
 <div class="right column">
   <div class="row">
     <span>Залишилося</span>
@@ -91,11 +90,11 @@
 
 <div class="badge">
   <div class="badge-head">
-    <span class="buy-list">Buy List</span>
+    <span class="badge-text">Buy List</span>
   </div>
   <div class="badge-body">
-    <span class="created-by">Created by:</span>
-    <span class=""></span>
+    <span class="badge-text created-by">Created by:</span>
+    <span class="badge-text">Denys Shvachka</span>
   </div>
 </div>
 </body>
